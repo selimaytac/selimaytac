@@ -1,0 +1,47 @@
+name: Update latest posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Substack blocks GitHub runner IPs (403), so the feed is read through rss2json.
+      - name: Render latest posts
+        run: |
+          python3 - <<'PY'
+          import json, re, urllib.parse, urllib.request
+
+          feed = "https://aytacs.substack.com/feed"
+          api = "https://api.rss2json.com/v1/api.json?rss_url=" + urllib.parse.quote(feed, safe="")
+          data = json.load(urllib.request.urlopen(api, timeout=30))
+          if data.get("status") != "ok" or not data.get("items"):
+              raise SystemExit(f"feed fetch failed: {data.get('message', data.get('status'))}")
+
+          posts = "\n".join(f"- [{i['title'].strip()}]({i['link']})" for i in data["items"][:3])
+          path = "README.md"
+          readme = open(path, encoding="utf-8").read()
+          readme = re.sub(
+              r"(<!-- BLOG-POST-LIST:START -->\n).*?(\n<!-- BLOG-POST-LIST:END -->)",
+              lambda m: m.group(1) + posts + m.group(2),
+              readme,
+              flags=re.S,
+          )
+          open(path, "w", encoding="utf-8").write(readme)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "docs: update latest posts"
+          git push
