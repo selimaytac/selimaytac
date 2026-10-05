@@ -11,7 +11,9 @@ DevOps & Platform Engineer based in Istanbul. I design, automate and operate pla
 
 I'm also interested in blockchain and distributed systems, and I write about what I learn, mostly on resilience, logging, and cloud.
 
-### 🔨 Currently building
+### 🔨 Open source & projects
+
+**[hashspan](https://github.com/selimaytac/hashspan)**: trace your AI agents' on-chain transactions with OpenTelemetry. Every transaction becomes tx-hash keyed spans inside the agent's own trace, with status, gas and fees, sent to the backend you already use. Works with viem, the Coinbase CDP SDK and x402. 🌐 [hashspan.dev](https://hashspan.dev) · 📦 [npm](https://www.npmjs.com/package/@hashspan/core)
 
 **[kafka-financial-event-platform](https://github.com/selimaytac/kafka-financial-event-platform)**: an enterprise-style stock-exchange event platform on Kubernetes, built from scratch with every decision recorded. It covers Kafka on Strimzi, a deterministic matching engine, GitOps with Argo CD, OpenTofu, governance, and HA/DR. 📖 [Read the docs](https://selimaytac.github.io/kafka-financial-event-platform-docs/)
 
