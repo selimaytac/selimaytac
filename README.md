@@ -18,9 +18,9 @@ I'm also interested in blockchain and distributed systems, and I write about wha
 ### ✍️ Latest posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Log Notes #2: One Service, Six Log Types, Six Different Answers](https://aytacs.substack.com/p/log-notes-2-retention-matrix)
 - [Resilience Notes #2: RTO and RPO Are Easy to Write Down, Expensive to Prove](https://aytacs.substack.com/p/resilience-notes-2-rto-and-rpo)
 - [In Financial Systems, Log Retention Is a Given. Finding the Right Log Isn't.](https://aytacs.substack.com/p/log-retention-finding-the-right-log)
-- [Resilience Notes #1: BCM, BCP, DR, and Failover](https://aytacs.substack.com/p/resilience-notes-1-bcm-bcp-dr-and)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [All posts on Substack](https://aytacs.substack.com)
