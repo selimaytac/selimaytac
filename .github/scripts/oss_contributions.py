@@ -12,6 +12,8 @@ LIMIT = 6
 MIN_STARS = 100
 # Order shown in the table: merged work first, then open PRs, fixed issues, open reports.
 RANK = {"Merged": 0, "PR open": 1, "Fixed": 2, "Reported": 3}
+# GitHub's own colors for each state, rendered as small static badges.
+BADGE = {"Merged": "8957e5", "PR open": "238636", "Fixed": "1f6feb", "Reported": "6e7681"}
 
 
 def get(url):
@@ -52,9 +54,26 @@ def status(item):
     return "Fixed" if item.get("state_reason") == "completed" else None
 
 
-def cell(text, limit=90):
-    text = text.strip().replace("|", "\\|")
+def cell(text, limit=72):
+    # Backticks are dropped so truncation can never leave a broken code span.
+    text = text.strip().replace("`", "").replace("|", "\\|")
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def badge(s):
+    label = urllib.parse.quote(s)
+    return f'<img src="https://img.shields.io/badge/{label}-{BADGE[s]}?style=flat-square" alt="{s}">'
+
+
+def summary(rows):
+    prs = [r for r in rows if r[5] in ("Merged", "PR open")]
+    issues = [r for r in rows if r[5] in ("Fixed", "Reported")]
+    merged = sum(r[5] == "Merged" for r in rows)
+    fixed = sum(r[5] == "Fixed" for r in rows)
+    projects = len({r[2] for r in rows})
+    pr_part = f"**{len(prs)}** pull requests" + (f" (**{merged}** merged)" if merged else "")
+    issue_part = f"**{len(issues)}** issues reported" + (f", **{fixed}** fixed upstream" if fixed else "")
+    return f"{pr_part} · {issue_part} · **{projects}** projects"
 
 
 def main():
@@ -66,12 +85,13 @@ def main():
             if not established(repo):
                 continue
             rows.append((RANK[s], item["created_at"], repo, item["title"], item["html_url"], s))
+    head = summary(rows)
     rows.sort(key=lambda r: (r[0], [-ord(c) for c in r[1]]))
     rows = sorted(rows[:LIMIT], key=lambda r: r[1], reverse=True)
 
-    lines = ["| Project | Contribution | Status |", "|---|---|---|"]
+    lines = [head, "", "| Contribution | Status |", "|---|:---:|"]
     for _, _, repo, title, url, s in rows:
-        lines.append(f"| [{repo}](https://github.com/{repo}) | [{cell(title)}]({url}) | {s} |")
+        lines.append(f"| **[{repo}](https://github.com/{repo})** · [{cell(title)}]({url}) | {badge(s)} |")
 
     readme = open("README.md", encoding="utf-8").read()
     readme = re.sub(
