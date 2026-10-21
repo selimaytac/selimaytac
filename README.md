@@ -4,10 +4,14 @@ DevOps & Platform Engineer based in Istanbul. I design, automate and operate pla
 
 **What I do**
 
-- **Platforms:** hybrid Kubernetes on Azure and on-prem (Proxmox), containers from build to production
-- **Automation:** CI/CD and infrastructure as code with Terraform/OpenTofu, Ansible, Azure DevOps and GitLab
-- **Observability:** Prometheus, Grafana and ELK, alerting design, SLOs and incident review
-- **Security & resilience:** compliance baselines (Wazuh), HA/DR design, low-risk migrations
+- I work on container platforms in the cloud and on-prem, mostly for real-time, high-volume services
+- I automate what I can: provisioning, configuration and releases, in environments with 5,000+ servers
+- I look after monitoring and logging, including pipelines that take in around 1.5B logs a month
+- I take part in incident response, and I care about the review afterwards as much as the fix
+- I help plan migrations so they cause as little downtime as possible
+- I work with the teams around me on security and compliance baselines
+
+Tools I use most: Kubernetes, Terraform, Ansible, Prometheus, Grafana, ELK and Kafka.
 
 I'm also interested in blockchain and distributed systems, and I write about what I learn, mostly on resilience, logging, and cloud.
 
