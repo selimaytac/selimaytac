@@ -1,4 +1,4 @@
-name: Update latest posts
+name: Update latest posts and open source
 
 on:
   schedule:
@@ -38,10 +38,15 @@ jobs:
           open(path, "w", encoding="utf-8").write(readme)
           PY
 
+      - name: Render recent open source contributions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/oss_contributions.py
+
       - name: Commit if changed
         run: |
           git diff --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "docs: update latest posts"
+          git commit -am "docs: update latest posts and open source"
           git push

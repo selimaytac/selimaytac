@@ -31,6 +31,21 @@ I'm also interested in blockchain and distributed systems, and I write about wha
 
 ➡️ [All posts on Substack](https://aytacs.substack.com)
 
+### 🧩 Recent open source
+
+<!-- OSS-LIST:START -->
+| Project | Contribution | Status |
+|---|---|---|
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | [Preserve the OTLP span kind in `Span.from_otel_proto`, `to_dict`, `from_dict` and `to_ote…](https://github.com/mlflow/mlflow/pull/26949) | PR open |
+| [x402-foundation/x402](https://github.com/x402-foundation/x402) | [fix(batch-settlement): settle claims made by refunds or a prior process](https://github.com/x402-foundation/x402/pull/3858) | PR open |
+| [base/docs](https://github.com/base/docs) | [docs(base-chain): eth_getTransactionReceipt returns pre-confirmed receipts](https://github.com/base/docs/pull/2081) | PR open |
+| [vercel/ai](https://github.com/vercel/ai) | [docs: link hashspan from the observability integrations](https://github.com/vercel/ai/pull/22003) | PR open |
+| [coinbase/agentkit](https://github.com/coinbase/agentkit) | [fix: read ERC-20 token details on chains without multicall3](https://github.com/coinbase/agentkit/pull/1535) | PR open |
+| [wevm/prool](https://github.com/wevm/prool) | [chore: remove unused `tar` dependency](https://github.com/wevm/prool/pull/113) | PR open |
+<!-- OSS-LIST:END -->
+
+➡️ [All PRs and issues](https://github.com/search?q=author%3Aselimaytac+-user%3Aselimaytac&type=issues&s=created&o=desc)
+
 ### 📫 Find me
 
 [LinkedIn](https://www.linkedin.com/in/selimaytac/) · [X](https://x.com/Sel1mC) · [Substack](https://aytacs.substack.com) · [Medium](https://selimaytac.medium.com)
