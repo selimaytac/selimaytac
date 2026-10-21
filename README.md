@@ -4,12 +4,12 @@ DevOps & Platform Engineer based in Istanbul. I design, automate and operate pla
 
 **What I do**
 
-- I work on container platforms in the cloud and on-prem, mostly for real-time, high-volume services
-- I automate what I can: provisioning, configuration and releases, in environments with 5,000+ servers
-- I look after monitoring and logging, including pipelines that take in around 1.5B logs a month
-- I take part in incident response, and I care about the review afterwards as much as the fix
-- I help plan migrations so they cause as little downtime as possible
-- I work with the teams around me on security and compliance baselines
+- Container platforms in the cloud and on-prem, mostly for real-time, high-volume services
+- Automation for provisioning, configuration and releases, across environments with 5,000+ servers
+- Monitoring and logging, including pipelines that take in around 1.5B logs a month
+- Incident response, with reviews that look for the cause, not just the fix
+- Migrations of infrastructure, services and data, planned to keep downtime low
+- Security and compliance baselines, built together with development teams
 
 Tools I use most: Kubernetes, Terraform, Ansible, Prometheus, Grafana, ELK and Kafka.
 
