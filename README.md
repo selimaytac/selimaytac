@@ -34,16 +34,16 @@ I'm also interested in blockchain and distributed systems, and I write about wha
 ### 🧩 Recent open source
 
 <!-- OSS-LIST:START -->
-**9** pull requests · **23** issues reported, **9** fixed upstream · **17** projects
+**8** pull requests · **27** issues reported, **10** fixed upstream · **19** projects
 
 | Contribution | Status |
 |---|:---:|
 | **[mlflow/mlflow](https://github.com/mlflow/mlflow)** · [Preserve the OTLP span kind in Span.from_otel_proto, to_dict, from_dict…](https://github.com/mlflow/mlflow/pull/26949) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[x402-foundation/x402](https://github.com/x402-foundation/x402)** · [fix(batch-settlement): settle claims made by refunds or a prior process](https://github.com/x402-foundation/x402/pull/3858) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
-| **[base/docs](https://github.com/base/docs)** · [docs(base-chain): eth_getTransactionReceipt returns pre-confirmed recei…](https://github.com/base/docs/pull/2081) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[vercel/ai](https://github.com/vercel/ai)** · [docs: link hashspan from the observability integrations](https://github.com/vercel/ai/pull/22003) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[coinbase/agentkit](https://github.com/coinbase/agentkit)** · [fix: read ERC-20 token details on chains without multicall3](https://github.com/coinbase/agentkit/pull/1535) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[wevm/prool](https://github.com/wevm/prool)** · [chore: remove unused tar dependency](https://github.com/wevm/prool/pull/113) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
+| **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** · [Add hashspan to Monitoring & Analytics](https://github.com/xpaysh/awesome-x402/pull/1694) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 <!-- OSS-LIST:END -->
 
 ➡️ [All PRs and issues](https://github.com/search?q=author%3Aselimaytac+-user%3Aselimaytac&type=issues&s=created&o=desc)
