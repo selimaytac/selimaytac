@@ -18,7 +18,9 @@ A few years of experience across several domains, mostly fintech. I'm interested
 **[hashspan](https://github.com/selimaytac/hashspan)**: OpenTelemetry instrumentation for viem, the Coinbase CDP SDK, x402 and MPP. It traces the transactions and payments that AI agents and services send, keyed by tx hash. 🌐 [hashspan.dev](https://hashspan.dev) · 📦 [npm](https://www.npmjs.com/package/@hashspan/core)<br>
 ↳ **[hashspan-lab](https://github.com/selimaytac/hashspan-lab)**: runs agent scenarios on a local chain with a telemetry stack and Grafana dashboards. One command, no key needed.
 
-**[awesome-agent-observability](https://github.com/selimaytac/awesome-agent-observability)**: a neutral list of resources for observing AI agents, with an OpenTelemetry focus. It covers standards, instrumentation, platforms, evaluation, cost, safety signals, and on-chain agents and payments.
+**[awesome-agent-observability](https://github.com/selimaytac/awesome-agent-observability)**: a neutral list of resources for observing AI agents, with an OpenTelemetry focus. It covers standards, instrumentation, platforms, evaluation, cost, safety signals, and on-chain agents and payments. 🌐 [Website](https://selimaytac.github.io/awesome-agent-observability/)
+
+**[benchmarks](https://github.com/selimaytac/benchmarks)**: developer tools measured side by side, with the scripts to run each test yourself. So far it covers vector search and LLM trace size.
 
 **[claude-code-kit](https://github.com/selimaytac/claude-code-kit)**: small, measured Claude Code add-ons (status line, hooks, skills and agents), also packaged as a plugin marketplace.
 
