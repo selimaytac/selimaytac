@@ -5,21 +5,24 @@ DevOps & Platform Engineer based in Istanbul. I design, automate and operate pla
 **What I do**
 
 - Container platforms in the cloud and on-prem, mostly for real-time, high-volume services
-- Automation for provisioning, configuration and releases, across environments with 5,000+ servers
-- Monitoring and logging, including pipelines that take in around 1.5B logs a month
+- Automation for provisioning, configuration and releases, across clustered, multi-datacenter server environments
+- Monitoring and logging, including pipelines that handle billions of logs
 - Incident response, with reviews that look for the cause, not just the fix
 - Migrations of infrastructure, services and data, planned to keep downtime low
 - Security and compliance baselines, built together with development teams
 
-Tools I use most: Kubernetes, Terraform, Ansible, Prometheus, Grafana, ELK and Kafka.
-
-I'm also interested in blockchain and distributed systems, and I write about what I learn, mostly on resilience, logging, and cloud.
+A few years of experience across several domains, mostly fintech. I'm interested in distributed systems, blockchain and on-chain infrastructure, and observability for AI agents and the systems around them. I write about what I learn, on resilience, logging and cloud.
 
 ### 🔨 Open source & projects
 
-**[hashspan](https://github.com/selimaytac/hashspan)**: trace your AI agents' on-chain transactions with OpenTelemetry. Every transaction becomes tx-hash keyed spans inside the agent's own trace, with status, gas and fees, sent to the backend you already use. Works with viem, the Coinbase CDP SDK and x402. 🌐 [hashspan.dev](https://hashspan.dev) · 📦 [npm](https://www.npmjs.com/package/@hashspan/core)
+**[hashspan](https://github.com/selimaytac/hashspan)**: OpenTelemetry instrumentation for viem, the Coinbase CDP SDK, x402 and MPP. It traces the transactions and payments that AI agents and services send, keyed by tx hash. 🌐 [hashspan.dev](https://hashspan.dev) · 📦 [npm](https://www.npmjs.com/package/@hashspan/core)<br>
+↳ **[hashspan-lab](https://github.com/selimaytac/hashspan-lab)**: runs agent scenarios on a local chain with a telemetry stack and Grafana dashboards. One command, no key needed.
 
-**[kafka-financial-event-platform](https://github.com/selimaytac/kafka-financial-event-platform)**: an enterprise-style stock-exchange event platform on Kubernetes, built from scratch with every decision recorded. It covers Kafka on Strimzi, a deterministic matching engine, GitOps with Argo CD, OpenTofu, governance, and HA/DR. 📖 [Read the docs](https://selimaytac.github.io/kafka-financial-event-platform-docs/)
+**[awesome-agent-observability](https://github.com/selimaytac/awesome-agent-observability)**: a neutral list of resources for observing AI agents, with an OpenTelemetry focus. It covers standards, instrumentation, platforms, evaluation, cost, safety signals, and on-chain agents and payments.
+
+**[claude-code-kit](https://github.com/selimaytac/claude-code-kit)**: small, measured Claude Code add-ons (status line, hooks, skills and agents), also packaged as a plugin marketplace.
+
+**[kafka-financial-event-platform](https://github.com/selimaytac/kafka-financial-event-platform)**: an enterprise-style stock-exchange event platform on Kubernetes, built from scratch with every decision recorded. 📖 [Read the docs](https://selimaytac.github.io/kafka-financial-event-platform-docs/)
 
 ### ✍️ Latest posts
 
