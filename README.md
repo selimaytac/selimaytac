@@ -39,11 +39,11 @@ A few years of experience across several domains, mostly fintech. I'm interested
 ### 🧩 Recent open source
 
 <!-- OSS-LIST:START -->
-**8** pull requests · **27** issues reported, **11** fixed upstream · **19** projects
+**8** pull requests (**1** merged) · **27** issues reported, **12** fixed upstream · **19** projects
 
 | Contribution | Status |
 |---|:---:|
-| **[mlflow/mlflow](https://github.com/mlflow/mlflow)** · [Preserve the OTLP span kind in Span.from_otel_proto, to_dict, from_dict…](https://github.com/mlflow/mlflow/pull/26949) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
+| **[mlflow/mlflow](https://github.com/mlflow/mlflow)** · [Preserve the OTLP span kind in Span.from_otel_proto, to_dict, from_dict…](https://github.com/mlflow/mlflow/pull/26949) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square" alt="Merged"> |
 | **[x402-foundation/x402](https://github.com/x402-foundation/x402)** · [fix(batch-settlement): settle claims made by refunds or a prior process](https://github.com/x402-foundation/x402/pull/3858) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[vercel/ai](https://github.com/vercel/ai)** · [docs: link hashspan from the observability integrations](https://github.com/vercel/ai/pull/22003) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[coinbase/agentkit](https://github.com/coinbase/agentkit)** · [fix: read ERC-20 token details on chains without multicall3](https://github.com/coinbase/agentkit/pull/1535) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
