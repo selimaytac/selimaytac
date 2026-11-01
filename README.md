@@ -39,7 +39,7 @@ A few years of experience across several domains, mostly fintech. I'm interested
 ### 🧩 Recent open source
 
 <!-- OSS-LIST:START -->
-**8** pull requests (**1** merged) · **26** issues reported, **12** fixed upstream · **18** projects
+**8** pull requests (**2** merged) · **26** issues reported, **12** fixed upstream · **18** projects
 
 | Contribution | Status |
 |---|:---:|
@@ -48,7 +48,7 @@ A few years of experience across several domains, mostly fintech. I'm interested
 | **[vercel/ai](https://github.com/vercel/ai)** · [docs: link hashspan from the observability integrations](https://github.com/vercel/ai/pull/22003) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[coinbase/agentkit](https://github.com/coinbase/agentkit)** · [fix: read ERC-20 token details on chains without multicall3](https://github.com/coinbase/agentkit/pull/1535) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
 | **[wevm/prool](https://github.com/wevm/prool)** · [chore: remove unused tar dependency](https://github.com/wevm/prool/pull/113) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
-| **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** · [Add hashspan to Monitoring & Analytics](https://github.com/xpaysh/awesome-x402/pull/1694) | <img src="https://img.shields.io/badge/PR%20open-238636?style=flat-square" alt="PR open"> |
+| **[magsther/awesome-opentelemetry](https://github.com/magsther/awesome-opentelemetry)** · [Add hashspan to GenAI / LLM Instrumentation](https://github.com/magsther/awesome-opentelemetry/pull/78) | <img src="https://img.shields.io/badge/Merged-8957e5?style=flat-square" alt="Merged"> |
 <!-- OSS-LIST:END -->
 
 ➡️ [All PRs and issues](https://github.com/search?q=author%3Aselimaytac+-user%3Aselimaytac&type=issues&s=created&o=desc)
