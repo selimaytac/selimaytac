@@ -39,7 +39,7 @@ A few years of experience across several domains, mostly fintech. I'm interested
 ### 🧩 Recent open source
 
 <!-- OSS-LIST:START -->
-**8** pull requests (**2** merged) · **26** issues reported, **13** fixed upstream · **18** projects
+**8** pull requests (**2** merged) · **26** issues reported, **14** fixed upstream · **18** projects
 
 | Contribution | Status |
 |---|:---:|
